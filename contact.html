@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pennsylvania Native Plant Initiative - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <header>
         <h1>Pennsylvania Native Plant Initiative</h1>
         <p>Get in Touch With Us</p>
@@ -25,37 +26,37 @@
             <h2>Contact Our Team</h2>
             <p>Have questions about native plants, conservation, or volunteering? Fill out the form below to reach us.</p>
 
-            <form action="#" method="POST">
-                <p>
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required>
+            <form action="#" method="POST" style="background: white; padding: 2rem; border-radius: 8px; border: 1px solid #ddd; margin-top: 1.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                <p style="margin-bottom: 1rem;">
+                    <label for="name"><b>Name:</b></label><br>
+                    <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; margin-top: 0.3rem; border: 1px solid #ccc; border-radius: 4px;">
                 </p>
 
-                <p>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required>
+                <p style="margin-bottom: 1rem;">
+                    <label for="email"><b>Email:</b></label><br>
+                    <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-top: 0.3rem; border: 1px solid #ccc; border-radius: 4px;">
                 </p>
 
-                <p>
-                    <label for="subject">Subject:</label><br>
-                    <input type="text" id="subject" name="subject" required>
+                <p style="margin-bottom: 1rem;">
+                    <label for="subject"><b>Subject:</b></label><br>
+                    <input type="text" id="subject" name="subject" required style="width: 100%; padding: 0.5rem; margin-top: 0.3rem; border: 1px solid #ccc; border-radius: 4px;">
                 </p>
 
-                <p>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                <p style="margin-bottom: 1rem;">
+                    <label for="message"><b>Message:</b></label><br>
+                    <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 0.5rem; margin-top: 0.3rem; border: 1px solid #ccc; border-radius: 4px;"></textarea>
                 </p>
 
-                <p>
-                    <label>Preferred Contact Method:</label><br>
-                    <input type="radio" id="pref-email" name="preferred_contact" value="email">
+                <p style="margin-bottom: 1.5rem;">
+                    <label><b>Preferred Contact Method:</b></label><br>
+                    <input type="radio" id="pref-email" name="preferred_contact" value="email" style="margin-top: 0.5rem;">
                     <label for="pref-email">Email</label><br>
-                    <input type="radio" id="pref-phone" name="preferred_contact" value="phone">
+                    <input type="radio" id="pref-phone" name="preferred_contact" value="phone" style="margin-top: 0.3rem;">
                     <label for="pref-phone">Phone</label>
                 </p>
 
                 <p>
-                    <input type="submit" value="Send Message">
+                    <input type="submit" value="Send Message" style="background-color: #2d5a27; color: white; border: none; padding: 0.75rem 1.5rem; font-size: 1rem; font-weight: bold; border-radius: 4px; cursor: pointer;">
                 </p>
             </form>
         </section>
